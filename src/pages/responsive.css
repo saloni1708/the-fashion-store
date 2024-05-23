@@ -1,0 +1,484 @@
+@media (max-width: 320px) {
+  /* Base Styles */
+  body {
+    overflow-x: hidden;
+  }
+
+  .border-bottom-dark {
+    border-bottom: 1px solid #c4c4c4;
+  }
+
+  .border-right-dark {
+    padding-right: 10px;
+    border-right: 1px solid #c4c4c4;
+  }
+
+  .logo {
+    position: relative;
+    top: 60px;
+    left: 10px;
+    width: 50%;
+  }
+
+  .form {
+    border: 2px solid #c4c4c4;
+    height: 50px;
+    border-radius: 2px;
+  }
+
+  .input {
+    border: none;
+    width: 100%;
+  }
+
+  .dropdown {
+    background-color: transparent;
+    color: black;
+    border: none;
+    align-items: center;
+    display: flex;
+  }
+
+  .dropdown:hover,
+  .dropdown:focus,
+  .dropdown:active,
+  .dropdown:first-child:active {
+    background-color: transparent;
+    color: black;
+  }
+
+  .button {
+    height: 49px;
+    position: relative;
+    background-color: #db3838;
+    border: none;
+    border-radius: 0;
+    color: white;
+    padding: 10px;
+    width: 100%;
+  }
+
+  .outer-for-div {
+    align-items: center;
+    height: 50px;
+    display: flex;
+  }
+
+  .for-divider {
+    border: 1px solid #c4c4c4;
+    height: 25px;
+  }
+
+  .button:hover {
+    background-color: #db3838;
+  }
+
+  .img1,
+  .img2,
+  .img3,
+  .img4 {
+    display: inline-block;
+    padding: 8px;
+    margin-left: 5px;
+    border: 2px solid black;
+    border-radius: 50%;
+  }
+
+  .logo-div {
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .menu {
+    background-color: black;
+    padding: 0 10px;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+
+  .menu-items {
+    padding: 5px 10px;
+    color: white;
+    text-decoration: none;
+  }
+
+  .main-section {
+    height: auto;
+    background-color: black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-image: url("../images/background.png");
+    background-position: center;
+    background-size: cover;
+    padding: 10px;
+  }
+
+  .horizontal-line-white,
+  .horizontal-line-black {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .listGroup-items {
+    border: none;
+    font-weight: 600;
+  }
+
+  .grey-box {
+    background-color: #c4c4c4;
+    width: 100%;
+  }
+
+  .box {
+    width: 100%;
+  }
+
+  .card-image1,
+  .card-image2,
+  .card-image3,
+  .card-image4,
+  .card-image5,
+  .card-image6,
+  .card-image7,
+  .card-image8,
+  .card-image9,
+  .card-image10,
+  .card-image11,
+  .card-image12,
+  .card-image13,
+  .card-image14,
+  .card-image15,
+  .card-image16 {
+    width: 100%;
+    height: auto;
+  }
+
+  .card-image1 {
+    background-image: url("../images/Layer 430.png");
+  }
+
+  .card-image2 {
+    background-image: url("../images/Layer 428.png");
+  }
+
+  .card-image3 {
+    background-image: url("../images/IMG3.png");
+  }
+
+  .image-with-text {
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    padding: 10px;
+  }
+
+  .horizontal-margin {
+    margin: 0 2%;
+  }
+
+  .card-image4 {
+    background-image: url("../images/Layer 415.png");
+  }
+
+  .card-image5,
+  .card-image6,
+  .card-image7,
+  .card-image8 {
+    width: 100%;
+    height: auto;
+  }
+
+  .card-image5 {
+    background-image: url("../images/Layer 413.png");
+  }
+
+  .card-image6 {
+    background-image: url("../images/Layer 414.png");
+  }
+
+  .card-image7 {
+    background-image: url("../images/Layer 418.png");
+  }
+
+  .card-image8 {
+    background-image: url("../images/Layer 417.png");
+  }
+
+  .card-image9 {
+    background-image: url("../images/Layer 416.png");
+  }
+
+  .heading {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #9d9b9b;
+    font-weight: 500;
+    font-family: "Gotham";
+  }
+
+  .card-image10,
+  .card-image11,
+  .card-image12,
+  .card-image13 {
+    background-color: #e6e6e6;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+  }
+
+  .card-image10 {
+    background-image: url("../images/Layer 423.png");
+  }
+
+  .card-image11 {
+    background-image: url("../images/Layer 425.png");
+  }
+
+  .card-image12 {
+    background-image: url("../images/Layer 424.png");
+  }
+
+  .card-image13 {
+    background-image: url("../images/Layer 426.png");
+  }
+
+  .blog {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #444444;
+    font-weight: 500;
+    font-family: "Gotham";
+  }
+
+  .card-image14,
+  .card-image15,
+  .card-image16 {
+    background-color: #e6e6e6;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    margin-bottom: 8px;
+  }
+
+  .card-image14 {
+    background-image: url("../images/Layer 420.png");
+  }
+
+  .card-image15 {
+    background-image: url("../images/Layer 421.png");
+  }
+
+  .card-image16 {
+    background-image: url("../images/Layer 422.png");
+  }
+
+  #footer-btn {
+    margin-bottom: 3rem;
+  }
+
+  .write {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #444444;
+    font-weight: 500;
+    font-family: "Gotham";
+  }
+
+  .safe {
+    width: 100%;
+    height: auto;
+    font-size: 12px;
+    line-height: 20px;
+    color: #444444;
+    font-family: "Gotham";
+  }
+
+  .footer-section {
+    margin: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-header {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .about,
+  .safe {
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+  }
+
+  .sign {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .email-text {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+  }
+
+  .footer-copywrite {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+  }
+}
+/* Global.css Adjustments */
+
+@media (max-width: 320px) {
+  .footer-section {
+    margin: 20px 10px; /* Reduce margin for smaller screens */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about,
+  .safe {
+    width: 90%; /* Use percentage to make it responsive */
+    font-size: 12px; /* Adjust font size for readability */
+    line-height: 20px; /* Adjust line height */
+    text-align: center; /* Center align text */
+  }
+
+  .sign {
+    font-size: 18px; /* Adjust font size */
+    margin-top: 10px;
+    text-align: center; /* Center align text */
+  }
+
+  .email-text {
+    width: 90%; /* Use percentage to make it responsive */
+    height: 40px; /* Adjust height */
+    margin: 10px auto; /* Center align */
+  }
+
+  .footer-header {
+    font-size: 12px; /* Adjust font size */
+    text-align: center; /* Center align text */
+  }
+
+  .footer-pointers {
+    font-size: 12px; /* Adjust font size */
+    margin: 5px 0;
+    justify-content: center; /* Center align */
+  }
+
+  .footer-copywrite {
+    font-size: 12px; /* Adjust font size */
+    margin: 20px 0; /* Adjust margin */
+    text-align: center; /* Center align */
+  }
+
+  #footer-btn {
+    margin-bottom: 20px; /* Adjust margin */
+    width: 90%; /* Make button responsive */
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .logo {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    width: 30%;
+  }
+
+  .border-right-dark {
+    padding-right: 50px;
+    border-right: 1px solid #c4c4c4;
+  }
+
+  .menu {
+    background-color: black;
+    padding: 0 50px;
+    flex-direction: row; /* Ensure menu items are in a row */
+  }
+
+  .menu-items {
+    padding: 10px 15px;
+  }
+
+  .main-section {
+    height: 500px; /* Set a specific height */
+    padding: 20px;
+    background-size: cover;
+  }
+
+  .horizontal-line-white,
+  .horizontal-line-black {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .card-image1,
+  .card-image2,
+  .card-image3,
+  .card-image4,
+  .card-image5,
+  .card-image6,
+  .card-image7,
+  .card-image8,
+  .card-image9,
+  .card-image10,
+  .card-image11,
+  .card-image12,
+  .card-image13,
+  .card-image14,
+  .card-image15,
+  .card-image16 {
+    width: 100%;
+    height: auto;
+  }
+
+  .image-with-text {
+    padding: 20px;
+  }
+
+  .horizontal-margin {
+    margin: 0 5%;
+  }
+
+  .footer-section {
+    margin: 20px 20px;
+  }
+
+  .footer-header {
+    font-size: 14px;
+  }
+
+  .about,
+  .safe {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .sign {
+    font-size: 20px;
+  }
+
+  .email-text {
+    width: 100%;
+    height: 50px;
+  }
+
+  .footer-copywrite {
+    font-size: 14px;
+  }
+}

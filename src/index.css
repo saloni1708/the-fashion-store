@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  /* font-family: "Gotham"; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.fs-14{
+  font-size: 14px;
+}
+
+.fs-15{
+  font-size: 15px;
+}
+
+.fs-20{
+  font-size: 20px;
+}
+
+.pr-3{
+  padding-right: 3px;
+}
+
+.pr-6{
+  padding-right: 6px;
+}
+
+.pr-15{
+  padding-right: 15px;
+}
+
+.fs-25{
+  font-size: 25px;
+}
+
+.fs-86{
+  font-size: 86px;
+}
